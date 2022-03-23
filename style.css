@@ -32,7 +32,6 @@ h1 {
 
 h1:hover {
   background: rgba(0, 0, 0, 0.8);
-  color: #dddd1c;
 }
 
 /* Bookmarks */
@@ -65,10 +64,6 @@ a:link,
 a:visited {
   color: #fff;
   text-decoration: none;
-}
-
-a:hover {
-  filter: brightness(110%);
 }
 
 .fa-times {
@@ -111,7 +106,7 @@ a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   max-width: 95%;
   width: 500px;
-  animation: modal-open 3s;
+  animation: modal-open 1.5s;
 }
 
 @keyframes modal-open {
