@@ -61,8 +61,8 @@ function fetchBookmarks() {
   } else {
     bookmarks = [
       {
-        name: "Quote Generator",
-        url: "https://galileu-quote-generator.netlify.app",
+        name: "Google",
+        url: "http://google.com",
       },
     ];
     localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
